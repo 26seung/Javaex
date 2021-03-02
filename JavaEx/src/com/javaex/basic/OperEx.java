@@ -13,7 +13,7 @@ public class OperEx {
 
 	//	3항 연산자
 	private static void conditionalOperEx() {
-		int a = 11;
+		int a = 10;
 
 		//	만약, a가 짝수면 "짝수", 홀수면 "홀수"
 		String result = a % 2 == 0 ? "짝수": "홀수";
