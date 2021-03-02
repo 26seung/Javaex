@@ -13,13 +13,13 @@ public class OperEx {
 
 	//	3항 연산자
 	private static void conditionalOperEx() {
-		int a = 10;
+		int a = 11;
 
 		//	만약, a가 짝수면 "짝수", 홀수면 "홀수"
 		String result = a % 2 == 0 ? "짝수": "홀수";
 		System.out.println(a + "는 짝수? " + result);
 
-		int score = 40;
+		int score = 52;
 
 		//	만약 score >= 80 Good
 		//	80 > score > 50 : Pass
@@ -27,6 +27,8 @@ public class OperEx {
 
 		String message = score >= 80 ? "Good": score > 50 ? "Pass": "Fail";
 		System.out.println("Score:" + score + ", Result:" + message);
+		
+		
 	}
 
 	//	비트 시프트 연산자 
