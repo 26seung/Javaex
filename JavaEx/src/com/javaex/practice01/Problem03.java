@@ -11,7 +11,7 @@ public class Problem03 {
 		for(int num = 1 ; num <= 9; num++) {
 //			System.out.print(dan+"단");
 			for(int dan = 2 ; dan <= 9; dan++) {
-				System.out.print(dan + "*" +num+ "=" +(dan*num));
+				System.out.print(dan + "*" +num+ "=" +(dan*num) + "\t");
 		
 	}
 			System.out.println();

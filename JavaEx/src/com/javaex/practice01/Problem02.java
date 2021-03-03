@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Problem02 {
 
 	public static void main(String[] args) {
-		Practice02();
+	Practice02();
 	}
 	
 	private static void Practice02() {
@@ -20,9 +20,8 @@ public class Problem02 {
 				System.out.print(val);
 			}
 			System.out.println();
-		}
+		}scanner.close();
 	}
-		
-	}
+}
 
 // 1~9 까지의 숫자 
