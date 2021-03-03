@@ -5,7 +5,31 @@ public class ArrayEx {
 	public static void main(String[] args) {
 //		arrayBasic();
 //		twoDimens();
-		arrayCopyFor();
+//		arrayCopyFor();
+		arrayCopySystem();
+	}
+	
+	// 배열 복사 (system 객체 이용)
+	private static void arrayCopySystem() {
+		int source[] = {1,2,3};
+		int target[] = new int[10];
+		
+		System.arraycopy(source,	// 원본 배열
+				0,					// 복사 시작 위치
+				target,				// 타켓 배열
+				0,					// 타겟 배열의 시작 인덱스
+				source.length);		// 길이
+		
+		for (int i = 0; i<target.length;i++) {
+			System.out.print(target[i] + "\t");
+		}
+		System.out.println();
+		
+		// enhanced for 문
+		for (int value : target) {
+			System.out.print(value + "\t");
+		}
+		System.out.println();
 	}
 	
 	// 배열 복사
