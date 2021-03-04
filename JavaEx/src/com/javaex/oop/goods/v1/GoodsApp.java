@@ -18,5 +18,4 @@ public class GoodsApp {
 				smartphone.name, smartphone.price);
 
 	}
-
 }
