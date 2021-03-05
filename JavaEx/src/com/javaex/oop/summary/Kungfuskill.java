@@ -6,3 +6,4 @@ public interface KungfuSkill {				//  (((class -> interface 로 변경 하였음
 	
 
 }
+

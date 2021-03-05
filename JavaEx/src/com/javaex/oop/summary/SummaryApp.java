@@ -4,10 +4,10 @@ public class SummaryApp {
 	// 쿵후 도장
 	static KungfuSkill[] dojang; 	// 인터페이스의 배열
 	public static void main(String[] args) {
-		Human h1 = new Human("홍길동",30);
-		Human h2 = new Human("네오",50);
-		Panda p1 = new Panda("핑",30);
-		Panda p2 = new Panda("퐁",15);
+		Human h1 = new Human("홍길동", 30);
+		Human h2 = new TheOne("네오", 50);
+		Panda p1 = new Panda("핑", 30);
+		Panda p2 = new KungfuPanda("퐁", 15);
 
 		fight(h1);
 		fight(h2);
