@@ -13,8 +13,8 @@ public class ListEx {
 	}
 	private static void listClassEx() {
 		// list 관련 클래스는 list 인터페이스를 구현하고 있다
-//		List<String> lst = new LinkedList<>();
-		List<String> lst = new ArrayList<>();
+		List<String> lst = new LinkedList<>();
+//		List<String> lst = new ArrayList<>();
 		
 		System.out.println("lst: " + lst);
 		System.out.println("size of lst: " + lst.size());
