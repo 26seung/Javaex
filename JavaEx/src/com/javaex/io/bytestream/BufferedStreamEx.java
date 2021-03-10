@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class BufferedStreamEx {
-	static String rootPath = System.getProperty("user.dir") + "\\files\\";
+	static final String rootPath = System.getProperty("user.dir") + "\\files\\";
 	static final String source = rootPath + "img.jpg";
 	static final String target = rootPath + "img_buffered_copy.jpg";
 	
