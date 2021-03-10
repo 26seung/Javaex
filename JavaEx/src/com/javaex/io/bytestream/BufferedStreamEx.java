@@ -3,6 +3,7 @@ package com.javaex.io.bytestream;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,8 +27,8 @@ public class BufferedStreamEx {
 			is = new FileInputStream(source);
 			os = new FileOutputStream(target);
 			
-			bis new BufferedInputStream(is);
-			bos new BufferedOutputStream(os);
+			bis = new BufferedInputStream(is);
+			bos = new BufferedOutputStream(os);
 			
 			//  버퍼를 생성
 			byte[] data = new byte[1024];		//	1kb

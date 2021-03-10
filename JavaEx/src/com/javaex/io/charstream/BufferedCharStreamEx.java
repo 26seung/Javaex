@@ -28,7 +28,7 @@ public class BufferedCharStreamEx {
 			writer = new FileWriter(target);
 			
 			br = new BufferedReader(reader);
-			bw = new BufferedWriter(target);
+			bw = new BufferedWriter(writer);
 		
 			// 편의 기능으로 한 줄 (개행된 문자열) 입출력 할 수 있다.
 			String line = null;
@@ -46,7 +46,7 @@ public class BufferedCharStreamEx {
 			try {
 				br.close();
 				bw.close();
-			}	catch (Exceptione e) {
+			}	catch (Exception e) {
 				
 			}
 		}
