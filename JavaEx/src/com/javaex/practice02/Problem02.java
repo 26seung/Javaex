@@ -12,8 +12,8 @@ public class Problem02 {
 		int sum = 0;
 		////////////////////////////////////////		
 		
-//		for (int i = 1; i <= array.length; i++)		// 왜 안되는지 이해가 안된다
-		for (int i: array)
+		for (int i = 0; i < array.length; i++)		// 왜 안되는지 이해가 안된다    ( <= 쓰면 안되고, < 쓰면 됨)
+//		for (int i: array)
 		{
 			System.out.print("값을 입력하세요 : ");
 			array[i] = scanner.nextInt();
